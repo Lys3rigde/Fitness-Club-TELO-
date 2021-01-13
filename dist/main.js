@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const e=document.querySelector("body"),t=document.querySelector(".clubs-list > ul");e.addEventListener("click",(e=>{e.target.closest(".club-select")?t.style.display="block":t.style.display="none"}))})()})();
