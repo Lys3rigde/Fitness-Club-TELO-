@@ -6,9 +6,9 @@ const gift = () => {
     body.addEventListener('click', event => {
         const target = event.target;
         if (target.closest('.fixed-gift')) {
-            console.log(1);
             gift.style.display = 'block';
             fixedGift.style.display = 'none';
+        // eslint-disable-next-line max-len
         }   else if (target.closest('.close-form') || !target.closest('.form-content') || target.closest('.close-btn')) {
             gift.style.display = 'none';
         }
