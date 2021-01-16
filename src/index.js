@@ -1,4 +1,5 @@
 import callBackForm from './modules/callBackForm';
+import carousel from './modules/carousel';
 import clubSelect from './modules/clubSelect';
 import freeVisitForm from './modules/freeVisitForm';
 import gift from './modules/gift';
@@ -10,3 +11,4 @@ freeVisitForm();
 callBackForm();
 gift();
 slider();
+carousel();
