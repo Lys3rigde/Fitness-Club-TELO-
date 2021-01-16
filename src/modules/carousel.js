@@ -22,7 +22,7 @@ const carousel = () => {
         width: 36px;
         height: 37px;
         background-color: #f4c71b !important;
-        border-radius: 50%;
+        border-radius: 40%;
         text-align: center;
         padding-top: 11px;
       }
