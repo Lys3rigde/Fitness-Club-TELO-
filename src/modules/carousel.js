@@ -36,6 +36,58 @@ const carousel = () => {
         left: 96.8%;
         cursor: pointer;
       }
+
+      @media (max-width: 1100px) {
+        .carousel-slider-left {
+          top: 22%;
+          left: 0%;
+          cursor: pointer;
+        }
+        .carousel-slider-right {
+          top: 22%;
+          left: 96.8%;
+          cursor: pointer;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .carousel-slider-left {
+          top: 22%;
+          left: 1%;
+          cursor: pointer;
+        }
+        .carousel-slider-right {
+          top: 22%;
+          left: 95%;
+          cursor: pointer;
+        }
+      }
+
+      @media (max-width: 550px) {
+        .carousel-slider-left {
+          top: 22%;
+          left: 1%;
+          cursor: pointer;
+        }
+        .carousel-slider-right {
+          top: 22%;
+          left: 92.4%;
+          cursor: pointer;
+        }
+      }
+
+      @media (max-width: 330px) {
+        .carousel-slider-left {
+          top: 22%;
+          left: 3%;
+          cursor: pointer;
+        }
+        .carousel-slider-right {
+          top: 22%;
+          left: 88.7%;
+          cursor: pointer;
+        }
+      }
     }
       `;
     document.head.append(style);
