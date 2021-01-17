@@ -1,3 +1,4 @@
+import calculator from './modules/calculator';
 import callBackForm from './modules/callBackForm';
 import carousel from './modules/carousel';
 import clubSelect from './modules/clubSelect';
@@ -14,3 +15,4 @@ gift();
 slider();
 carousel();
 photoGallery();
+calculator();
