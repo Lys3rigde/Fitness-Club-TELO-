@@ -1,3 +1,4 @@
+import burger from './modules/burger';
 import calculator from './modules/calculator';
 import callBackForm from './modules/callBackForm';
 import carousel from './modules/carousel';
@@ -16,3 +17,4 @@ slider();
 carousel();
 photoGallery();
 calculator();
+burger();
