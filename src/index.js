@@ -7,6 +7,7 @@ import freeVisitForm from './modules/freeVisitForm';
 import gift from './modules/gift';
 import photoGallery from './modules/photoGallery';
 import slider from './modules/slider';
+import toTop from './modules/toTop';
 
 
 clubSelect();
@@ -18,3 +19,4 @@ carousel();
 photoGallery();
 calculator();
 burger();
+toTop();
