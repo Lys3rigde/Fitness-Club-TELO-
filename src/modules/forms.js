@@ -103,7 +103,6 @@ const forms = forms => {
                     error++;
                 }
             }
-            console.log(error);
             return error;
         }
 

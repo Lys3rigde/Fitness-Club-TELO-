@@ -1,5 +1,4 @@
 const otherThings = () => {
-    //маска для телефона
     const maskPhone = (selector, masked = '+7 (___) ___-__-__') => {
         const elems = document.querySelectorAll(selector);
 
@@ -35,7 +34,6 @@ const otherThings = () => {
 
     maskPhone('input[name="phone"]');
 
-    //валидация имени в форме
     const nameValidate = selector => {
         const elems = document.querySelectorAll(selector);
         elems.forEach(item => {
