@@ -34,7 +34,7 @@ const calculator = () => {
         }
     });
 
-    promoInput.addEventListener('input', () => {
+    promoInput.addEventListener('onkeyup', () => {
         if (promoInput === truePromo) {
             if (cardLetoSchelkovo.checked) {
                 if (oneMonth.checked) priceTotal.innerHTML = Math.floor(2999 * 0.7);
@@ -62,6 +62,9 @@ const calculator = () => {
         }
     });
 
+
+    const calc = () => {
+    }
 };
 
 export default calculator;
