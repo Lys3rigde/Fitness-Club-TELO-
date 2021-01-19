@@ -22,8 +22,9 @@ calculator();
 burger();
 toTop();
 otherThings();
-forms('form1', 'none');
-forms('form2', 'none');
+forms('form1');
+forms('form2');
 forms('banner-form');
 forms('card_order');
 forms('footer_form');
+
