@@ -7,7 +7,7 @@ const calculator = () => {
         priceTotal = document.getElementById('price-total'),
         cardLetoMozaika = document.getElementById('card_leto_mozaika'),
         cardLetoSchelkovo = document.getElementById('card_leto_schelkovo'),
-        truePromo = "ТЕЛО2021",
+        truePromo = "ТЕЛО2020",
         body = document.querySelector('body');
 
     body.addEventListener('click', () => {

@@ -8,7 +8,8 @@ import gift from './modules/gift';
 import photoGallery from './modules/photoGallery';
 import slider from './modules/slider';
 import toTop from './modules/toTop';
-
+import forms from './modules/forms';
+import otherThings from './modules/valid';
 
 clubSelect();
 freeVisitForm();
@@ -20,3 +21,9 @@ photoGallery();
 calculator();
 burger();
 toTop();
+otherThings();
+forms('form1', 'none');
+forms('form2', 'none');
+forms('banner-form');
+forms('card_order');
+forms('footer_form');

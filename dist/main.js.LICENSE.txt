@@ -1,5 +1,3 @@
-//!btn
+//!f-animation ends
 
-//!left
-
-//!right
+//!f/animation
